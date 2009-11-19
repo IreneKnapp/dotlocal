@@ -1,0 +1,36 @@
+.Dd 11/19/09               \" DATE 
+.Dt local 1      \" Program name and manual section number 
+.Os Darwin
+.Sh NAME                 \" Section Header - required - don't modify 
+.Nm local
+.Nd List Bonjor/mDNS hosts on the local network, with their IP addresses.
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm
+.Op Fl abcd              \" [-abcd]
+.Op Fl a Ar path         \" [-a path] 
+.Op Ar file              \" [file]
+.Op Ar                   \" [file ...]
+.Ar arg0                 \" Underlined argument - use .Ar anywhere to underline
+arg2 ...                 \" Arguments
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+Use the .Nm macro to refer to your program throughout the man page like such:
+.Nm
+Underlining is accomplished with the .Ar macro like this:
+.Ar underlined text .
+.Pp                      \" Inserts a space
+A list of items with descriptions:
+.Bl -tag -width -indent  \" Begins a tagged list 
+.It item a               \" Each item preceded by .It macro
+Description of item a
+.It item b
+Description of item b
+.El                      \" Ends the list
+.Pp
+A list of flags and their descriptions:
+.Bl -tag -width -indent  \" Differs from above in tag removed 
+.It Fl a                 \"-a flag as a list item
+Description of -a flag
+.It Fl b
+Description of -b flag
+.El                      \" Ends the list
+.Pp
