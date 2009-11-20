@@ -118,6 +118,7 @@ extern NSString *nameTable[];
     } else {
 	[self printReport];
 	isDone = TRUE;
+	exit(0);
     }
 }
 
