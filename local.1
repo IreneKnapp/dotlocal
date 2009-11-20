@@ -1,36 +1,61 @@
-.Dd 11/19/09               \" DATE 
-.Dt local 1      \" Program name and manual section number 
+.Dd 11/19/09
+.Dt local 1
 .Os Darwin
-.Sh NAME                 \" Section Header - required - don't modify 
+.Sh NAME
 .Nm local
-.Nd List Bonjor/mDNS hosts on the local network, with their IP addresses.
-.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nd List Bonjour/mDNS/DNS-SD hosts on the local network.
+.Sh SYNOPSIS
 .Nm
-.Op Fl abcd              \" [-abcd]
-.Op Fl a Ar path         \" [-a path] 
-.Op Ar file              \" [file]
-.Op Ar                   \" [file ...]
-.Ar arg0                 \" Underlined argument - use .Ar anywhere to underline
-arg2 ...                 \" Arguments
-.Sh DESCRIPTION          \" Section Header - required - don't modify
-Use the .Nm macro to refer to your program throughout the man page like such:
+.Op Fl l | -long-names
+.Op Fl s | -short-names
+.Op Fl L | -low-level-names
+.Op Fl n | -no-names
+.Op Fl i | -ip-addresses
+.Op Fl j | -no-ip-addresses
 .Nm
-Underlining is accomplished with the .Ar macro like this:
-.Ar underlined text .
-.Pp                      \" Inserts a space
-A list of items with descriptions:
-.Bl -tag -width -indent  \" Begins a tagged list 
-.It item a               \" Each item preceded by .It macro
-Description of item a
-.It item b
-Description of item b
-.El                      \" Ends the list
+.Op Fl v | -version
+.Sh DESCRIPTION
+The
+.Nm
+program scans the local-area network for all hosts advertising services via Bonjour
+(also called DNS Service Discovery).
+It then outputs a list of all found hosts, the services they support, and, optionally,
+their IP addresses.
 .Pp
-A list of flags and their descriptions:
-.Bl -tag -width -indent  \" Differs from above in tag removed 
-.It Fl a                 \"-a flag as a list item
-Description of -a flag
-.It Fl b
-Description of -b flag
-.El                      \" Ends the list
+.Bl -tag -width -indent
+.It Fl v | -version
+Instead of executing, output the program name and version number, then exit.
+.It Fl l | -long-names
+Output a textual description of each protocol, on a separate line.
+.It Fl s | -short-names
+Output an abbreviated name for each protocol, all on the same line.
+The default.
+.It Fl L | -low-level-names
+Output in the
+.Fl -short-names
+format, but using the low-level DNS\-SD names.
+.It Fl n | -no-names
+Output no protocol names at all.  Produces nice terse output.
+.It Fl i | -ip-addresses
+Output IP addresses next to each hostname.
+Push short protocol names down to a separate line.
+The default.
+.It Fl j | -no-ip-addresses
+Do not output IP addresses.
+.El
+.Pp
+Only one of
+.Fl -long-names
+.Fl -short-names
+.Fl -low-level-names
+.Fl -no-names
+may be specified.  The default is
+.Fl -short-names .
+Additionally, only one of
+.Fl -ip-addresses
+.Fl -no-ip-addresses
+may be specified.  The default is
+.Fl -ip-addresses .
+.Sh AUTHOR
+Written by Dan Knapp <dankna@gmail.com>.
 .Pp

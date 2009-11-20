@@ -10,6 +10,7 @@
 		8DD76F9A0486AA7600D96B5E /* Local.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Local.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* local.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* local.1 */; };
+		E2EC035D10B5BDD8007DFE3D /* BrowserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EC035C10B5BDD8007DFE3D /* BrowserDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		32A70AAB03705E1F00C91783 /* Local_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Local_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* local */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = local; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* local.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = local.1; sourceTree = "<group>"; };
+		E2EC035B10B5BDD8007DFE3D /* BrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserDelegate.h; sourceTree = "<group>"; };
+		E2EC035C10B5BDD8007DFE3D /* BrowserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			children = (
 				32A70AAB03705E1F00C91783 /* Local_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* Local.m */,
+				E2EC035B10B5BDD8007DFE3D /* BrowserDelegate.h */,
+				E2EC035C10B5BDD8007DFE3D /* BrowserDelegate.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* Local.m in Sources */,
+				E2EC035D10B5BDD8007DFE3D /* BrowserDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
