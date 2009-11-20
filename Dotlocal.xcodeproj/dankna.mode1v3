@@ -343,14 +343,13 @@
 								<string>C6859EA2029092E104C91782</string>
 								<string>1AB674ADFE9D54B511CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>E2EC033C10B5B960007DFE3D</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>9</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -390,7 +389,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BrowserDelegate.m</string>
+								<string>Dotlocal_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -398,17 +397,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BrowserDelegate.m</string>
+										<string>Dotlocal_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E2EC076D10B644D0007DFE3D</string>
+										<string>E2EC078B10B64960007DFE3D</string>
 										<key>history</key>
 										<array>
-											<string>E2EC036C10B5BE70007DFE3D</string>
-											<string>E2EC03B410B5C4F4007DFE3D</string>
-											<string>E2EC065D10B62ACC007DFE3D</string>
-											<string>E2EC071310B64281007DFE3D</string>
+											<string>E2EC078610B64960007DFE3D</string>
+											<string>E2EC078710B64960007DFE3D</string>
+											<string>E2EC078810B64960007DFE3D</string>
+											<string>E2EC078910B64960007DFE3D</string>
+											<string>E2EC078A10B64960007DFE3D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -420,14 +420,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {545, 288}}</string>
+								<string>{{0, 0}, {545, 281}}</string>
 								<key>RubberWindowFrame</key>
 								<string>626 379 753 481 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>288pt</string>
+							<string>281pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -440,14 +440,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 293}, {545, 147}}</string>
+								<string>{{0, 286}, {545, 154}}</string>
 								<key>RubberWindowFrame</key>
 								<string>626 379 753 481 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>147pt</string>
+							<string>154pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -466,9 +466,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E2EC032410B5B85A007DFE3D</string>
+				<string>E2EC078C10B64960007DFE3D</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E2EC032510B5B85A007DFE3D</string>
+				<string>E2EC078D10B64960007DFE3D</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -589,7 +589,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>280380624.74414599</real>
+	<real>280381792.78415102</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -606,12 +606,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E2EC034910B5B9B1007DFE3D</string>
-		<string>E2EC034A10B5B9B1007DFE3D</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E2EC032710B5B85B007DFE3D</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/dankna/Projects/Local/Local.xcodeproj</string>
+		<string>/Users/dankna/Projects/Local/Dotlocal.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>626 379 753 481 0 0 1440 878 </string>
@@ -635,7 +631,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BrowserDelegate.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -652,8 +648,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -693,7 +687,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E2EC032710B5B85B007DFE3D</string>
-				<string>E2EC032810B5B85B007DFE3D</string>
+				<string>E2EC078E10B64960007DFE3D</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
